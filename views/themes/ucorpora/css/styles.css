@@ -84,6 +84,20 @@ p {
   margin:15px 0;
 }
 
+.two_one {
+	position: relative;
+	margin-right: 3%;
+  float: left;
+  padding: 0px 0px 18px 65px;
+	margin: 20px 0px 0px 0px;
+	float: left;
+	line-height: 58px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 45px;
+	color: #fff;
+}
+
 blockquote {        
   color:#83adff;
   margin:15px 0px;

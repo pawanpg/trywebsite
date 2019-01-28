@@ -42,13 +42,13 @@
   <![endif]--> 
   
   <?php if($pagetitle == 'Solutions') { ?>
-  <!-- ######### CSS STYLES ######### -->
+
   <link rel="stylesheet" href="<?php echo UURL;?>css/reset.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo UURL;?>css/style.css" type="text/css" />
     
-    <!-- responsive devices styles -->
+    
 	<link rel="stylesheet" media="screen" href="<?php echo UURL;?>css/responsive-leyouts.css" type="text/css" />
-  <?php } ?>
+  <?php } ?> 
 </head>       
 <body>
 <!-- Header -->
@@ -58,8 +58,10 @@
       <!-- Logo -->
         <div class="span3">
           <div class="logo">
-            <a href="index.htm"><img src="img/logo-header.png" alt=""></a>
-          </div>            
+            <div class="two_one">
+              <!-- <a href="home"><img src="<?php echo UURL;?>img/logo.png" ></a> -->
+            </div>
+          </div>        
         </div>
 
         <div class="span9">
@@ -73,7 +75,7 @@
                 <li><a href="<?php echo URL;?>solutions" title="">Solution</a></li>           
                 
                 <li><a href="<?php echo URL;?>blog" title="">Blog</a></li>
-                <li><a href="<?php echo URL;?>components" title=""><span>Features</span></a>
+                <li><a href="<?php echo URL;?>gallery" title=""><span>Features</span></a>
                   <ul> <!-- Submenu -->
                           <li><a href="<?php echo URL;?>gallery" title="">Gallery</a></li>  
                           <li><a href="<?php echo URL;?>aboutus" title="">About Us</a></li>  
